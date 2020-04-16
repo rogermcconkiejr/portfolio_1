@@ -20,7 +20,7 @@ function ProjectHouse() {
                     
                         <p>On DesignHub, I was able to work on both the front and back end of the application, using Node and React.  Redux was used for state management.  Some notable features that I worked on personally
                         were the ability to make projects private, along with a collaboration feature that gave users the ability to share their private projects with other users of their
-                        chosing on the site.  I also added a category feature to each project, which allowed users to categorize their projects so that other users could search
+                        choosing on the site.  I also added a category feature to each project, which allowed users to categorize their projects so that other users could search
                         by category on the explore page.  
                         </p>
                         <div className="pjIcon">
