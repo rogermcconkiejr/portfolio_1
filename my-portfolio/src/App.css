@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.navBar{
+  display:flex;
+  justify-content:space-evenly;
+  
+
+}
+.styledLink{
+  text-decoration:none;
+  color:white;
+  margin-top:3%;
+  font-size:1.1rem;
+  cursor: default;
+}
+
+.selfie1{
+  /* make sure to find a square pic to fill this */
+  margin-top:4%;
+  height:180px;
+  width:180px;
+  border-radius:100%;
+}
+.name1{
+margin-top: 2%;
+font-size: 2rem;
+color:white;
+cursor: default;
+}
+.role1{
+  margin-top:2%;
+  color:white;
+  font-size:1.2rem;
+  cursor: default;
+
+}
+
+.hr1{
+  margin-top:2%;
+  width:4%;
+  height:3px;
+  background-color:white;
+}
+.hr2{
+  background-color: white;
+  width:75%;
+}
+.socialLink{
+  margin: 2% 10px 0px 10px;
+}
+.aboutDiv{
+  display:flex;
+  flex-direction:column;
+}
+.aboutImg{
+  height:175px;
+  width:1000px !important;
+  margin-top:20px;
+}
+.aboutTitle{
+font-size:2rem;
+color:white;
+margin-top:10px;
+cursor: default;
+}
+.aboutText{
+color:white;
+font-size:1.3rem;
+margin:20px;
+}
+
+/* START PORTFOLIO CSS */
+.pjWrapper{
+  padding-right:6%;
+  padding-left:6%;
+  margin-bottom:40px;
+
+}
+.portTitle{
+  color:white;
+  font-size:1.7rem;
+  margin-top:20px;
+  margin-bottom:30px;
+  cursor: default;
+}
+.pjHouse{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom:40px;
+  margin-top:20px;
+}
+.firstPj {
+  text-decoration: none;
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  box-shadow: 0 0 20px rgba(0.75,0.75,0.75,0.75);
+  transition: all .2s ease-in-out;
+}
+.firstPj:hover { transform: scale(1.05); }
+
+.secondPj {
+  text-decoration: none;
+  margin-top:40px;
+  display:flex;
+  flex-direction:row;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0.75,0.75,0.75,0.75);
+  transition: all .2s ease-in-out;
+}
+.secondPj:hover { transform: scale(1.05); }
+
+.thirdPj {
+  text-decoration: none;
+  margin-top:40px;
+  display:flex;
+  flex-direction:row;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0.75,0.75,0.75,0.75);
+  transition: all .2s ease-in-out;
+}
+.thirdPj:hover { transform: scale(1.05); }
+
+.descPj {
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:1rem;
+  padding-right:1%;
+  cursor: default;
+
+}
+
+.pjImgHouse{
+  margin:12px;
+  display:flex;
+  flex-direction: column;
+/*
+*/
+}
+.pjPic{
+  height:200px;
+  width:22vw;
+}
+.pjImgHouse .stack-top{
+  z-index: 9;
+  margin: 20px;
+}
+.pjaTitle{
+  color:white;
+  text-decoration: none;
+  font-size:1.4rem;
+  padding-top:10px;
+
+}
+.pjIcon{
+  position:relative;
+  top:-10px;
+
+}
+
+/* END PORTFOLIO CSS */
+
+.socialLinksDivFoot{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Contact From CSS */
+.inputFields{
+  width:20vw;
+  height:20px;
+  border-radius:3px;
+  margin:20px;
+  border:1px solid black;
+  font-size:1.15rem;
+}
+.inputFields::placeholder{
+  font-size:1.15rem;
+}
+
+.contactTitle{
+  font-size:2rem;
+  color:white;
+  margin-top:20px;
+  cursor: default;
+}
+.mailing p{
+  color:white;
+  font-size:1.3rem;
+  margin:20px;
+}
+hr{
+  width:90vw;
+}
+
+.textAreaBox{
+  font-size:1rem;
+  border-radius: 3px;
+}
+.textAreaBox ::placeholder{
+  font-size:5rem;
+}
+
+.btn--submit{
+  background-color:white;
+  cursor: pointer;
+}
+
+.skillWrap{
+  padding-right:6%;
+  padding-left:6%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.icons{
+  padding-top:4%;
+  padding-right:8%;
+  padding-left:8%;
+
+}
+
+.icons p5{
+  color:white;
+}
+
+.foot{
+  padding-bottom:10px;
+}
